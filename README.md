@@ -1,90 +1,61 @@
-# Kalijaga EventHub
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-![UIN Sunan Kalijaga](https://img.shields.io/badge/Kampus-UIN%20Sunan%20Kalijaga-blue.svg) ![Status](https://img.shields.io/badge/status-In%20Development-yellow.svg)
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Kalijaga EventHub adalah platform informasi terpusat yang didedikasikan untuk sivitas akademika UIN Sunan Kalijaga. Aplikasi ini bertujuan untuk menjadi pusat informasi non-akademik, mempermudah mahasiswa dalam menemukan informasi seputar acara kampus, rekrutmen Unit Kegiatan Mahasiswa (UKM), direktori UMKM milik mahasiswa, serta program zakat dan donasi.
+## About Laravel
 
-## ✨ Fitur Utama
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
--   **📅 Informasi Event:** Publikasi dan pencarian acara kampus seperti seminar, workshop, dan kompetisi.
--   **👥 Rekrutmen UKM:** Kanal terpusat bagi UKM untuk mengumumkan pendaftaran anggota baru.
--   **🛍️ Direktori UMKM:** Etalase untuk mempromosikan dan menemukan usaha yang dimiliki oleh mahasiswa.
--   **💖 Zakat & Donasi:** Informasi mengenai kampanye penggalangan dana yang transparan.
--   **🔑 Autentikasi Pengguna:** Sistem registrasi dan login yang sudah siap pakai.
--   **🖥️ Dasbor Admin:** Halaman khusus untuk memvalidasi dan mengelola semua konten yang masuk.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## 🛠️ Teknologi yang Digunakan
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Proyek ini dibangun dengan tumpukan teknologi yang terintegrasi:
+## Learning Laravel
 
--   ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
--   ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
--   ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
--   ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
--   ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E) (Untuk Database)
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## 👨‍💻 Tim Pengembang
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-Proyek ini dikembangkan dan dikelola oleh:
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-| Nama                       | NIM         | Peran               |
-| :------------------------- | :---------- | :------------------ |
-| Idhan Haidar Kurniawan     | 23106050054 | Backend Developer   |
-| Muhammad Faisal Ramadhan   | 23106050061 | Frontend Developer  |
-| Hanif Ubaidur Rohman Syah  | 23106050081 | Full-Stack Developer|
-| Dama Amisuda               | 23106050096 | UI/UX & Frontend    |
+## Laravel Sponsors
 
-## 🚀 Panduan Instalasi & Menjalankan Proyek
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
+### Premium Partners
 
-1.  **Clone repositori ini:**
-    ```bash
-    git clone [https://github.com/hanipubaidur/Kalijaga-EventHub.git](https://github.com/hanipubaidur/Kalijaga-EventHub.git)
-    cd Kalijaga-EventHub
-    ```
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
-2.  **Konfigurasi Lingkungan (Environment):**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-    > **Penting:** Buka file `.env` dan sesuaikan konfigurasi database Anda (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+## Contributing
 
-3.  **Instalasi Dependencies:**
-    ```bash
-    # Instalasi dependency PHP
-    composer install
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-    # Instalasi dependency JavaScript
-    npm install
-    ```
+## Code of Conduct
 
-4.  **Migrasi Database:**
-    Jalankan perintah ini untuk membuat tabel-tabel yang dibutuhkan di database Anda.
-    ```bash
-    php artisan migrate
-    ```
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-5.  **Menjalankan Server Pengembangan:**
-    > **Anda perlu membuka DUA terminal terpisah di dalam folder proyek `Kalijaga-EventHub`.**
+## Security Vulnerabilities
 
-    * **Di Terminal 1**, jalankan server backend Laravel:
-        ```bash
-        php artisan serve
-        ```
-    * **Di Terminal 2**, jalankan server frontend Vite:
-        ```bash
-        npm run dev
-        ```
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-6.  **Buka Aplikasi:**
-    Buka browser Anda dan akses URL yang diberikan oleh `php artisan serve` (biasanya `http://127.0.0.1:8000`).
+## License
 
-## 🤝 Kontribusi
-
-Kami sangat terbuka untuk kontribusi! Jika Anda ingin membantu, silakan *fork* repositori ini dan buat *pull request* dengan perubahan yang Anda usulkan.
-
----
-
-© 2025 - Tim Pengembang Kalijaga EventHub
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
